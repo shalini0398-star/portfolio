@@ -1,13 +1,25 @@
 # Shalini Jha | React Portfolio
 
+| | |
+|---|---|
+| **Live site** | https://coruscating-shortbread-90635b.netlify.app |
+| **Repository** | https://github.com/shalini0398-star/portfolio |
+
+## About the project
+
+A responsive portfolio website built with React and Vite to showcase my projects and skills. It has About Me, Projects, Skills, Resume and Contact sections.
+
+## Features
+
+- Responsive design for mobile, tablet and desktop, with a menu button on small screens
+- Resume download and a con# Shalini Jha | React Portfolio
+
 A responsive, performance-optimised portfolio website built with **React** and **Vite**. It has About Me, Projects, Skills, Resume and Contact sections, lazy-loaded sections and images, and is ready to deploy on **GitHub Pages, Netlify or Vercel**.
 
 > All personal content (name, projects, links, resume) is **sample data**. Replace it with your own in `src/data/portfolio.js` and `public/resume.pdf` before publishing.
 
-| | |
-|---|---|
-| **Live site** | `https://<https://coruscating-shortbread-90635b.netlify.app/l>` *(add after deployment)* |
-| **Repository** | `https://github.com/<shalini0398-star>/<Portfolio.git>` *(add after you push)* |
+| **Live site** | https://coruscating-shortbread-90635b.netlify.app |
+| **Repository** | https://github.com/shalini0398-star/portfolio |
 
 ## Screenshots
 
@@ -173,3 +185,41 @@ Dark mode toggle, project filtering by technology, a blog section, and Lighthous
 ## License
 
 MIT. Free to use and adapt.
+tact form with validation
+- Lazy loading of sections (React.lazy) and images
+- Minified and code-split production build
+
+## Technologies
+
+React, Vite, JavaScript, CSS, Git, GitHub, Netlify
+
+## How to run it
+
+```bash
+npm install
+npm run dev        # development
+npm run build      # production build into dist/
+npm run preview    # check the production build locally
+```
+
+## Performance optimisation
+
+- Each section is loaded only when it is about to appear on screen
+- Images use lazy loading
+- JavaScript and CSS are minified by the Vite production build
+
+## Deployment steps
+
+1. Created the project and tested it with `npm run dev`
+2. Made the production build with `npm run build` and checked it with `npm run preview`
+3. Pushed the code to GitHub
+4. Connected the GitHub repository to Netlify (build command `npm run build`, publish directory `dist`)
+5. Netlify built the site and published it. Every `git push` now updates the live site automatically.
+
+## Challenges and solutions
+
+| Challenge | Solution |
+|---|---|
+| First `git push` failed with "Repository not found" | I had used a placeholder GitHub link. I changed it to my real repository link with `git remote set-url` |
+| The live site asked for a login | The Netlify site was private. I made it public in Netlify |
+| Changes were not showing on the live site | I had to commit and push them to GitHub; Netlify then rebuilt the site |
