@@ -1,4 +1,4 @@
-# Alex Morgan | React Portfolio
+# Shalini Jha | React Portfolio
 
 A responsive, performance-optimised portfolio website built with **React** and **Vite**. It has About Me, Projects, Skills, Resume and Contact sections, lazy-loaded sections and images, and is ready to deploy on **GitHub Pages, Netlify or Vercel**.
 
@@ -6,8 +6,8 @@ A responsive, performance-optimised portfolio website built with **React** and *
 
 | | |
 |---|---|
-| **Live site** | `https://<your-site-url>` *(add after deployment)* |
-| **Repository** | `https://github.com/<your-username>/<your-repo>` *(add after you push)* |
+| **Live site** | `https://<https://coruscating-shortbread-90635b.netlify.app/l>` *(add after deployment)* |
+| **Repository** | `https://github.com/<shalini0398-star>/<Portfolio.git>` *(add after you push)* |
 
 ## Screenshots
 
