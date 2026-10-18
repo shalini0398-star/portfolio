@@ -1,6 +1,6 @@
 // All portfolio content lives here. Edit this file to personalise the site.
 export const profile = {
-  name: "Shalini jha",
+  name: "Shalini Jha",
   role: "Full-Stack Developer",
   tagline: "I build fast, accessible and responsive web apps with React.",
   email: "shalini.jha@example.com",
